@@ -1,6 +1,7 @@
 name: Daily Financial News Collection
 
 on:
+workflow_dispatch:  #
   schedule:
     - cron: '30 0 * * *'
     - cron: '0 5 * * *'
