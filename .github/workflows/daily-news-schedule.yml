@@ -2,10 +2,10 @@ name: Daily Financial News Collection
 
 on:
   workflow_dispatch:  # 允许手动触发
-  schedule:
-    - cron: '30 0 * * *'   # 北京时间 08:30
-    - cron: '0 5 * * *'    # 北京时间 13:00
-    - cron: '30 12 * * *'  # 北京时间 20:30
+  # schedule:
+  #   - cron: '30 0 * * *'   # 北京时间 08:30
+  #   - cron: '0 5 * * *'    # 北京时间 13:00
+  #   - cron: '30 12 * * *'  # 北京时间 20:30
 
 jobs:
   collect-and-send-news:
